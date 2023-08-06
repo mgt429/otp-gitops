@@ -20,7 +20,7 @@ spec:
       values: |
           channel: stable-4.11
           sizeGiB: 512
-          storageClass: thin
+          storageClass: thin-csi
           argo:
             namespace: openshift-gitops
             serviceAccount: openshift-gitops-otp-argocd-application-controller
