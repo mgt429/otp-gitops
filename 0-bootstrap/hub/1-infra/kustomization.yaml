@@ -40,8 +40,8 @@ resources:
  
  # MachineSets and Infra Nodes
  #- Not required for IBM Cloud ROKS with ODF add-on configured
- #- argocd/machinesets.yaml
- #- argocd/infraconfig.yaml
+ - argocd/machinesets.yaml
+ - argocd/infraconfig.yaml
 
  ## Optional Components. These are NOT required for OTP, but can be enabled.
 
