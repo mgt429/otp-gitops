@@ -12,7 +12,7 @@ metadata:
 spec:
   destination:
     namespace: openshift-gitops
-            server: 192.168.0.10
+    server: 192.168.0.10
   project: infra
   source:
     path: machinesets
