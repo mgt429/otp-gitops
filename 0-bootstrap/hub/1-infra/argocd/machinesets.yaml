@@ -12,7 +12,7 @@ metadata:
 spec:
   destination:
     namespace: openshift-gitops
-    server: 192.168.0.10
+    server: https://kubernetes.default.svc
   project: infra
   source:
     path: machinesets
